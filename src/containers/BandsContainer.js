@@ -20,9 +20,10 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    addBand: () =>
+    addBand: band =>
       dispatch({
-        type: "ADD_BAND"
+        type: "ADD_BAND",
+        band
       })
   };
 };
