@@ -2,10 +2,15 @@
 import React, { Component } from 'react'
 
 class BandInput extends Component {
+  state = {
+    text:''
+  }
   render() {
     return(
       <div>
-        Band Input
+        <form>
+          <input />
+        </form>
       </div>
     )
   }
